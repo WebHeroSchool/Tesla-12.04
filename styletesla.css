@@ -1,0 +1,34 @@
+.wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    }
+.first {
+    background: url('img/tesla-wordmark.png') center no-repeat;
+    }
+.header {
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.first__list_top li {
+	display: inline;
+	padding: 45px;
+	margin-bottom: 67px;
+}
+.models {
+	border-bottom: 1px solid black;
+}
+.main {
+	margin: 0 auto;}
+	/*display: flex;
+	justify-content: center;
+	flex-direction: column;
+}*/
+.tesla{ 
+	width: 968px;
+
+}
+.first__icon li {
+	display: inline;
+	padding: 55px;
+}
