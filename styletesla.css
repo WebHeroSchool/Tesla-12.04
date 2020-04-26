@@ -21,16 +21,7 @@
 	border-bottom: 1px solid red;
 	margin-right: 63px;
 	color: red;}
-/*}
-.modelx {
-	margin-right: 25px;
-}
-.model3 {
-	margin-right: 44px;
-}
-.roadster {
-   margin-right: 46px;
-}*/
+
 .menu a {
 	margin-right: 30px;
 }
@@ -47,22 +38,34 @@
 
 }
 .description {
-	padding: 0;
-	height: 120px;
+	/*padding: 0;
+	height: 120px;*/
 	width: 600px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
+
+
+.speed, .road, .wheel {
+	display: flex;
  /* переписать классы*/
-.first__icon_speed {
+}
+.icon_speed {
+	align-self: center;
 	width: 46px;
+	height: 34px;
 }
-.first__icon_road {
-	width: 26px;
+.icon_road {
+	width: 29px;
+	height: 45px;
+	align-self: center;
 }
-.first__icon_wheel {
-	width: 14px;
+
+.icon_wheel {
+	width: 22px;
+	height: 22px;
+	align-self: center;
 }
 .first__btn {
 	width: 160px;
@@ -70,4 +73,25 @@
 	border: 2px solid red;
 	color: red;
 	text-align: center;
+}
+.advantage {
+	height: 100vh;
+	background: url('img/rulj.png') bottom left no-repeat; 
+	display: flex;
+	justify-content: space-between;
+
+}
+.sidebar {
+	height: 100vh;
+	width: 30%;
+	right: 0;
+	background:#E51937;
+
+}
+.sidebar__title, .sidebar__discription {
+	color:white;
+}
+.sidebar__title {
+	padding-top: 51px;
+	margin: 0;
 }
