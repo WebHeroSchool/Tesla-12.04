@@ -1,34 +1,73 @@
-.wrap {
+.body {
     max-width: 1440px;
     margin: 0 auto;
     }
-.first {
-    background: url('img/tesla-wordmark.png') center no-repeat;
-    }
+.mainpage {
+	height: 100vh;
+        }
 .header {
-	height: 50px;
+	height: 100px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
-.first__list_top li {
+.navigation a {
 	display: inline;
-	padding: 45px;
-	margin-bottom: 67px;
+    margin-bottom: 67px;
+    cursor: pointer;
+    margin-right: 44px;
 }
-.models {
-	border-bottom: 1px solid black;
+.navigation__link_active {
+	border-bottom: 1px solid red;
+	margin-right: 63px;
+	color: red;}
+/*}
+.modelx {
+	margin-right: 25px;
+}
+.model3 {
+	margin-right: 44px;
+}
+.roadster {
+   margin-right: 46px;
+}*/
+.menu a {
+	margin-right: 30px;
 }
 .main {
-	margin: 0 auto;}
-	/*display: flex;
-	justify-content: center;
+	background: url('img/tesla-wordmark.png') top no-repeat;
+	display: flex;
+	align-items: center;
 	flex-direction: column;
-}*/
+}
+
 .tesla{ 
-	width: 968px;
+	/*width: 67%;*/
+	max-width: 968px;
 
 }
-.first__icon li {
-	display: inline;
-	padding: 55px;
+.description {
+	padding: 0;
+	height: 120px;
+	width: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+ /* переписать классы*/
+.first__icon_speed {
+	width: 46px;
+}
+.first__icon_road {
+	width: 26px;
+}
+.first__icon_wheel {
+	width: 14px;
+}
+.first__btn {
+	width: 160px;
+	height: 40px;
+	border: 2px solid red;
+	color: red;
+	text-align: center;
 }
