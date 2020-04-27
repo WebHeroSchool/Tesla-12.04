@@ -1,4 +1,6 @@
+
 .body {
+	
     max-width: 1440px;
     margin: 0 auto;
     }
@@ -12,6 +14,7 @@
 	align-items: center;
 }
 .navigation a {
+	font: 15px/18px montserratsemibold;
 	display: inline;
     margin-bottom: 67px;
     cursor: pointer;
@@ -30,6 +33,9 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+}
+.main__title {
+font: 90px/110px montserratsemibold;
 }
 
 .tesla{ 
@@ -67,7 +73,7 @@
 	height: 22px;
 	align-self: center;
 }
-.first__btn {
+.btn__order {
 	width: 160px;
 	height: 40px;
 	border: 2px solid red;
@@ -93,5 +99,18 @@
 }
 .sidebar__title {
 	padding-top: 51px;
-	margin: 0;
+		margin: 0;
+}
+
+
+/*3section*/
+.safety {
+	height: 100vh;
+	display: flex;
+}
+.safety__img {
+	background: url('img/ModelS.png') right no-repeat;
+}
+.carinside {
+	align-self: center;
 }
