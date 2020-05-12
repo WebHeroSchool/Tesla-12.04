@@ -6,11 +6,11 @@
 	height: 100vh;
     }
 .header {
-	height: 100px;
+	height: 10vh;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 40px;
+	/*margin-bottom: 40px;*/
     }
  .logo {
     padding-left: 47px;
@@ -38,7 +38,7 @@
 	flex-direction: column;
     }
 .main__title {
-    font: 90px/110px montserratsemibold;
+    font: 9vh/11vh montserratsemibold;
     margin: 0;
     }
 .main__subtitle {
@@ -46,8 +46,8 @@
     margin: 0;
     }	
 .tesla{ 
-	max-width: 968px;
-	margin-bottom: 18px;
+	max-width: 105vh;
+	/*margin-bottom: 18px;*/
 	}
 .description {
 	display: flex;
@@ -149,7 +149,7 @@
     }
 .main {
 	background: url('img/tesla-wordmark.png') no-repeat;
-	background-position-y: 8%;
+	background-position-y: 6vh;
 	background-size: contain;
 }
 .main__subtitle {
@@ -286,7 +286,7 @@
 
 /*вторая секция*/
 .advantage {
-	height: 100vh;
+	/*height: 100vh;*/
 	width: 100%;
 	background: url('img/rulj.png') left bottom no-repeat; 
 	background-size: contain;
@@ -308,7 +308,7 @@
 	}
 .sidebar__title {
 	font: 30px/35px montserratsemibold;
-	padding-top: 42px;
+	padding-top: 3vh;
 	margin: 0;
 	margin-bottom: 5px;
     }
@@ -347,6 +347,7 @@
 .button {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 70px;
 }
 .button__more {
 	display: flex;
@@ -386,6 +387,7 @@
 }
 .advantage__title {
 	padding-left: 54%;
+	margin-top: 3%;
 	}
 .sidebar {
 	width: 100%;
@@ -469,7 +471,7 @@
 
 /*3section*/
 .safety {
-	height: 100vh;
+	/*height: 100vh;*/
 	width: 100%;
 	display: grid;
 	grid-template-columns: 20% 80%;
@@ -586,7 +588,7 @@
 	padding-left: 0;
 	width: 78%;
     margin: 0 auto;
-}
+    }
 }
 @media (max-width: 930px) {
 .protect__list_link {
@@ -600,7 +602,7 @@
 .protect__list {
 	padding-left: 0px;
 }
-.list_star, .list_star1, .list_star2, .list_star3, .list_star4 {
+.list_star {
 	height: 18px;
 }
 .sidebar__title {
@@ -632,5 +634,6 @@
    height: 560px;
 	}
 .sidebar__discription {
-    font-size: 13px;}
+    font-size: 13px;
+    }
 }
