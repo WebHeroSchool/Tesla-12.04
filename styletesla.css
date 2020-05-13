@@ -19,7 +19,7 @@
 }
 
 .navigation a {
-  font: 15px/18px 'montserratsemibold';
+  font: 15px/18px 'montserrat' 600;
   cursor: pointer;
   margin-right: 44px;
 }
@@ -32,7 +32,7 @@
 
 .menu a {
   cursor: pointer;
-  font: 15px/18px 'montserratsemibold';
+  font: 15px/18px 'montserrat' 600;
   margin-right: 30px;
 }
 
@@ -45,13 +45,13 @@
 }
 
 .main__title {
-  font: 9vh/11vh montserrat;
+  font: 9vh/11vh 'montserrat';
   font-weight: 600;
   margin: 0;
 }
  
 .main__subtitle {
-  font: 15px/18px 'montserratmedium';
+  font: 15px/18px 'montserrat' 500;
   margin: 0;
 }
 
@@ -168,7 +168,7 @@
     height: 3px;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    background: #E51937;
+    background: #e51937;
   }
 
   .header {
