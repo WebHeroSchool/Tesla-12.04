@@ -26,13 +26,13 @@
 
 .navigation__link_active {
   padding-bottom: 5px;
-  border-bottom: 1px solid #E51937;
+  border-bottom: 1px solid #e51937;
   color: #e51937;
 }
 
 .menu a {
   cursor: pointer;
-  font: 15px/18px montserratsemibold;
+  font: 15px/18px montserrat semibold;
   margin-right: 30px;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .main__title {
-  font: 9vh/11vh montserratsemibold;
+  font: 9vh/11vh montserrat 600;
   margin: 0;
 }
   
@@ -63,7 +63,7 @@
   flex-direction: row;
 }
 
-.speed, 
+.speed,
 .road {
   display: flex;
   margin-right: 80px;
@@ -141,6 +141,7 @@
   .mainpage {
     height: 920px;
   }
+
   .menu,
   .navigation {
     display: none;
@@ -199,9 +200,11 @@
   .speed {
     width: 240px;
   }
+
   .road {
     padding-right: 0;
   }
+
   .wheel__desc {
     font: 16px/20px montserratbold;
     color: #E51937;
@@ -210,6 +213,7 @@
   .icon_wheel {
     display: none;
   }
+
   .icon_redwheel {
     display: block;
     width: 30px;
@@ -244,6 +248,7 @@
   .mainpage {
     height: 600px;
   }
+
   .header {
     height: 75px;
   }
@@ -331,19 +336,15 @@
     margin-right: 25px;
   }
 
-  .speed {
-    width: 122px;
-  }
-  
   .btn__order {
     width: 140px;
   }
 }
 
-/*вторая секция*/
+ /*вторая секция*/
 .advantage {
   width: 100%;
-  background: url('img/rulj.png') left bottom no-repeat; 
+  background: url('img/rulj.png') left bottom no-repeat;
   background-size: contain;
   display: flex;
   justify-content: space-between;
@@ -352,14 +353,14 @@
 .advantage__title {
   font: 70px/85px montserratsemibold;
   padding-left: 77px;
-  color: #E51937;
+  color: #e51937;
 }
 
 .sidebar {
   height: 100%;
   width: 28%;
   right: 0;
-  background:#E51937;
+  background:#e51937;
   padding-left: 50px;
   color: white;
 }
@@ -374,15 +375,20 @@
 .sidebar__discription {
   font: 15px/18px montserratmedium;
 }
+
 .list {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 170px;
 }
 
 .list p {
   margin: 15px;
 }
-.icon_dujm, .icon_po, .icon_litr {
+
+.icon_dujm,
+.icon_po,
+.icon_litr {
   display: flex;
   align-items: center;
 }
@@ -405,9 +411,7 @@
 .po {
   font: 20px/18px montserratsemibold;
 }
-.list {
-  margin-bottom: 170px ;
-}
+
 .button {
   display: flex;
   justify-content: space-between;
@@ -425,14 +429,15 @@
   margin-right: 5px;
 }
 
-.know { 
+.know {
   font: 13px/16px montserratbold;
   cursor: pointer;
 }
+
 .button__order {
   border: 2px solid white;
   color: white;
-  background: #E51937;
+  background: #e51937;
   font: 13px/16px montserratbold;
   text-transform: uppercase;
   margin-right: 30px;
@@ -478,7 +483,8 @@
   .sidebar__discription {
     padding-top: 90px;
   }
-  .list{
+
+  .list {
     grid-column: 2/3;
     padding-top: 35px;
     margin-bottom: 0;
@@ -501,9 +507,11 @@
     height: 55%;
   }
 
-  .sidebar__title, .sidebar__discription {
+  .sidebar__title,
+  .sidebar__discription {
     padding-left: 25px;
   }
+
   .list {
     padding-left: 40px;
   }
@@ -513,10 +521,11 @@
   .advantage__title, .list, .button {
     display: none;
   }
+
   .advantage {
     height: 580px;
     width: 100%;
-    background: url('img/rulj-planshet.png') top no-repeat; 
+    background: url('img/rulj-planshet.png') top no-repeat;
     background-size: contain;
     display: flex;
     flex-direction: row;
