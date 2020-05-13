@@ -19,7 +19,7 @@
 }
 
 .navigation a {
-  font: 15px/18px montserratsemibold;
+  font: 15px/18px 'montserratsemibold';
   cursor: pointer;
   margin-right: 44px;
 }
@@ -32,7 +32,7 @@
 
 .menu a {
   cursor: pointer;
-  font: 15px/18px montserrat semibold;
+  font: 15px/18px 'montserratsemibold';
   margin-right: 30px;
 }
 
@@ -51,7 +51,7 @@
 }
  
 .main__subtitle {
-  font: 15px/18px montserratmedium;
+  font: 15px/18px 'montserratmedium';
   margin: 0;
 }
 
