@@ -19,7 +19,7 @@
 }
 
 .navigation a {
-  font: 15px/18px 'montserrat' 600;
+  font: 15px/18px montserratsemibold, sans-serif;
   cursor: pointer;
   margin-right: 44px;
 }
@@ -32,7 +32,7 @@
 
 .menu a {
   cursor: pointer;
-  font: 15px/18px 'montserrat' 600;
+  font: 15px/18px montserratsemibold, sans-serif;
   margin-right: 30px;
 }
 
@@ -45,13 +45,13 @@
 }
 
 .main__title {
-  font: 9vh/11vh 'montserrat';
+  font: 9vh/11vh montserrat, sans-serif;
   font-weight: 600;
   margin: 0;
 }
  
 .main__subtitle {
-  font: 15px/18px 'montserrat' 500;
+  font: 15px/18px 'montserratmedium', sans-serif;
   margin: 0;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .number {
-  font: 35px/22px montserratsemibold;
+  font: 35px/22px montserratsemibold, sans-serif;
 }
 
 .dimension {
