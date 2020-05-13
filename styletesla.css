@@ -80,15 +80,15 @@
 }
 
 .dimension {
-  font: 20px/22px montserratsemibold;
+  font: 20px/22px montserratsemibold, sans-serif;
 }
 
 .text_bottom {
-  font: 12px/15px montserratregular;
+  font: 12px/15px montserratregular, sans-serif;
 }
 
 .wheel__desc {
-  font: 13px/16px montserratbold;
+  font: 13px/16px montserratbold, sans-serif;
   align-self: center;
 }
 
@@ -124,7 +124,7 @@
   align-self: center;
   color: #e51937;
   background: white;
-  font: 13px/16px montserratbold;
+  font: 13px/16px montserratbold, sans-serif;
   cursor: pointer;
 }
 
@@ -207,7 +207,7 @@
   }
 
   .wheel__desc {
-    font: 16px/20px montserratbold;
+    font: 16px/20px montserratbold, sans-serif;
     color: #e51937;
   }
 
@@ -228,7 +228,7 @@
     height: 55px;
     background: #e51937;
     color: white;
-    font: 16px/20px montserratbold;
+    font: 16px/20px montserratbold, sans-serif;
   }
 }
 
@@ -263,11 +263,11 @@
   }
 
   .main__title {
-    font: 50px/61px montserratbold;
+    font: 50px/61px montserratbold, sans-serif;
   }
 
   .main__subtitle {
-    font: 10px/12px montserratmedium;
+    font: 10px/12px montserratmedium, sans-serif;
   }
 
   .main {
@@ -301,15 +301,15 @@
   }
 
   .number {
-    font: 27px/20px montserratsemibold;
+    font: 27px/20px montserratsemibold, sans-serif;
   }
 
   .dimension {
-    font: 15px/14px montserratbold;
+    font: 15px/14px montserratbold, sans-serif;
   }
 
   .text_bottom {
-    font: 10px/10px montserratregular;
+    font: 10px/10px montserratregular, sans-serif;
    }
 
   .icon_redwheel {
@@ -318,13 +318,13 @@
    }
 
   .wheel__desc {
-    font: 13px/16px montserratbold;
+    font: 13px/16px montserratbold, sans-serif;
   }
 
   .btn__order {
     width: 160px;
     height: 40px;
-    font: 13px/16px montserratbold;
+    font: 13px/16px montserratbold, sans-serif;
   }
 }
 
@@ -352,7 +352,7 @@
 }
 
 .advantage__title {
-  font: 70px/85px montserratsemibold;
+  font: 70px/85px montserratsemibold, sans-serif;
   padding-left: 77px;
   color: #e51937;
 }
@@ -367,14 +367,14 @@
 }
 
 .sidebar__title {
-  font: 30px/35px montserratsemibold;
+  font: 30px/35px montserratsemibold, sans-serif;
   padding-top: 3vh;
   margin: 0;
   margin-bottom: 5px;
 }
 
 .sidebar__discription {
-  font: 15px/18px montserratmedium;
+  font: 15px/18px montserratmedium, sans-serif;
 }
 
 .list {
@@ -410,7 +410,7 @@
 }
 
 .po {
-  font: 20px/18px montserratsemibold;
+  font: 20px/18px montserratsemibold, sans-serif;
 }
 
 .button {
@@ -431,7 +431,7 @@
 }
 
 .know {
-  font: 13px/16px montserratbold;
+  font: 13px/16px montserratbold, sans-serif;
   cursor: pointer;
 }
 
@@ -439,7 +439,7 @@
   border: 2px solid white;
   color: white;
   background: #e51937;
-  font: 13px/16px montserratbold;
+  font: 13px/16px montserratbold, sans-serif;
   text-transform: uppercase;
   margin-right: 30px;
 }
@@ -586,7 +586,7 @@
   justify-content: space-between;
   margin-right: 90px;
   margin-bottom: 16px;
-  font: 17px/21px montserratbold;
+  font: 17px/21px montserratbold, sans-serif;
 }
 
 .list_star {
@@ -605,11 +605,11 @@
 }
 
 .star {
-  font: 33px/36px montserratsemibold;
+  font: 33px/36px montserratsemibold, sans-serif;
 }
 
 .star_security {
-  font: 25px/30px montserratsemibold ;
+  font: 25px/30px montserratsemibold, sans-serif;
 }
 
 .safety__img {
@@ -635,17 +635,17 @@
 
 .footer__main {
   padding-top: 58px;
-  font: 8px/15px montserratbold;
+  font: 8px/15px montserratbold, sans-serif;
 }
 
 .footer__webhero {
-  font: 16px/15px montserratbold;
+  font: 16px/15px montserratbold, sans-serif;
   color: #ffD22E;
   cursor: pointer;
 }
 
 .footer__school {
-  font: 11px/15px montserratmedium;
+  font: 11px/15px montserratmedium, sans-serif;
   color: black;
   padding-left: 48%;
 }
